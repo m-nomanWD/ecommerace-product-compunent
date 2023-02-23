@@ -345,7 +345,7 @@ h3 {
 .attribution {
   font-size: 12px;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 4rem auto 2rem auto;
   text-align: center;
 }
 @media screen and (min-width: 700px) {
