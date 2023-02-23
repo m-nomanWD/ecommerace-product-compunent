@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Muhmmad Nauman CB frontendmentor | E-commerce product page</title>
+
+    <!-- custom style sheets  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav>
+        <div class="logo-links">
+          <span class="menu-opner"></span>
+          <img class="menu-opnerr" src="./images/icon-menu.svg" alt="" />
+          <img class="logo" src="./images/logo.svg" alt="" />
+          <div class="links-container">
+            <ul>
+              <span class="menu-closer"
+                ><img class="menu-closerr" src="./images/icon-close.svg" alt=""
+              /></span>
+              <li>Collections</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="crat-avatar-container">
+          <div class="cart">
+            <img class="cart-btn" src="./images/icon-cart.svg" alt="" />
+            <span class="cart-count"> 0</span>
+          </div>
+          <span class="avatar"
+            ><img src="./images/image-avatar.png" alt=""
+          /></span>
+        </div>
+      </nav>
+    </div>
+
+    <section class="main-section">
+      <article class="lightbox">
+        <div class="big-img">
+          <span class="left-btn slider-btn"
+            ><img src="./images/icon-previous.svg" alt=""
+          /></span>
+          <span class="right-btn slider-btn"
+            ><img src="./images/icon-next.svg" alt=""
+          /></span>
+
+          <div class="slide">
+            <img src="./images/image-product-1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/image-product-2.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/image-product-3.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/image-product-4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="tumbnail">
+          <div class="tumbmail-img">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+          </div>
+          <div class="tumbmail-img">
+            <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+          </div>
+          <div class="tumbmail-img">
+            <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+          </div>
+          <div class="tumbmail-img">
+            <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+          </div>
+        </div>
+      </article>
+
+      <article class="product-detail">
+        <h3>Sneaker Company</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <div class="pricing">
+          <div class="discount">
+            <h1>$125.00</h1>
+            <span>50%</span>
+          </div>
+          <span class="over-line"> $250.00 </span>
+        </div>
+        <div class="add-cart">
+          <div class="item-count">
+            <span class="minus-btn"
+              ><img src="./images/icon-minus.svg" alt=""
+            /></span>
+            <span class="counter">0</span>
+            <span class="plus-btn"
+              ><img src="./images/icon-plus.svg" alt=""
+            /></span>
+          </div>
+          <div class="btn btn-add">
+            <span
+              ><img src="./images/icon-cart.svg" class="colorize-orange" alt=""
+            /></span>
+            Add to cart
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a target="_blank" href="https://muhammad-nauman.netlify.app/"
+        >Muhammad Nauman</a
+      >.
+    </div>
+    <div class="show-cart-items">
+      <h2>cart</h2>
+      <p class="empty">your cart is empty</p>
+
+      <div class="btn-checkout btn">Checkout</div>
+    </div>
+    <div class="overlay"></div>
+    <!-- article show lightbox -->
+    <article class="lightbox2">
+      <div class="big-img2">
+        <p>
+          <img class="lightbox2-close" src="./images/icon-close.svg" alt="" />
+        </p>
+        <span class="left-btn1 slider-btn"
+          ><img src="./images/icon-previous.svg" alt=""
+        /></span>
+        <span class="right-btn1 slider-btn"
+          ><img src="./images/icon-next.svg" alt=""
+        /></span>
+
+        <div class="slide1">
+          <img src="./images/image-product-1.jpg" alt="" />
+        </div>
+        <div class="slide1">
+          <img src="./images/image-product-2.jpg" alt="" />
+        </div>
+        <div class="slide1">
+          <img src="./images/image-product-3.jpg" alt="" />
+        </div>
+        <div class="slide1">
+          <img src="./images/image-product-4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="tumbnail1">
+        <div><img src="./images/image-product-1-thumbnail.jpg" alt="" /></div>
+        <div><img src="./images/image-product-2-thumbnail.jpg" alt="" /></div>
+        <div><img src="./images/image-product-3-thumbnail.jpg" alt="" /></div>
+        <div><img src="./images/image-product-4-thumbnail.jpg" alt="" /></div>
+      </div>
+    </article>
+    <script src="./app.js"></script>
+  </body>
+</html>
